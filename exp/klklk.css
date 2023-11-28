@@ -1,0 +1,82 @@
+
+  
+  
+  .waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 60px;
+    font-family: 'Alfa Slab One', cursive;
+  }
+  .waviy span {
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+  .pop-outin {
+  animation: 5s anim-popoutin ease infinite;
+  font-size: 50px;
+  font-family: 'Alfa Slab One', cursive;
+  
+}
+
+@keyframes anim-popoutin {
+  0% {
+    color: black;
+    transform: scale(0);
+    opacity: 0;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  25% {
+    color: red;
+    transform: scale(2);
+    opacity: 1;
+    text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    color: black;
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+  }
+  100% {
+    /* animate nothing to add pause at the end of animation */
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+  }
+}
+
+
+
+@mixin transition {
+  @for $i from 1 through 11 {
+    div:nth-child(#{$i}) {
+      @keyframes example-#{$i} {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(8px + $i);
+          opacity: $i / 16;
+        }
+      }
+    }
+  } 
+}
+
+     

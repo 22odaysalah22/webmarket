@@ -1,0 +1,1 @@
+document.querySelector(".ss").style.animation = 'alternate 2s infinite shrink ease-in-out';

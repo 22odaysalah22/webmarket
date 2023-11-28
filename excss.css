@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*
+#search {
+position:absolute;
+height: 0px;
+background-color: rgb(15, 15, 80);
+display: none;
+right: 30px;
+
+
+}
+#search .input {
+  background-color: #ffffff;
+  position:static;
+border: 0;
+font-size: 15px;
+padding: 2px;
+height: 20px;
+width: 200px;
+margin: 20px;
+transition: width 0.3s ease;
+z-index: 2;
+
+
+}
+
+.btn {
+  background-color: #b691e7;
+border: 0;
+cursor: pointer;
+
+
+
+top: 0;
+
+height: 20px;
+width: 20px;
+transition: transform 0.3s ease;
+margin: 0px;
+
+}
+.btn:focus,
+.input:focus {
+outline: none;
+}
+.search.active .input {
+width: 200px;
+}
+.search.active .btn {
+ 
+transform: translateX(198px);
+}
+/* set the position of dropdown */
+
+/* set the size and position of button on web */
+
+/* provide css to background of list items */ 
+#list-items {
+ display: none;
+ position: absolute;
+ background-color: rgb(233, 7, 7);
+ height: 70px;
+ width: 15px;
+ right: 3%;
+ margin-top: 30%;
+margin-right: 90px;
+ padding: 4%;
+ /*min-width: 100px;
+ line-height: 50px;*/
+
+ 
+}
+/* provide css to list items */ 
+#list-items a {
+  display: block;
+  position: relative;
+  font-size: 15px;
+  background-color: #ddd;
+  color: black;
+  text-decoration: none;
+  padding: 0px;
+  top: 10px;
+  border-radius: 5px;
+  width: 100px;
+  height: 20px;
+}
+
+
+#list-drop {
+  display: none;
+  position:absolute;
+  background-color: rgb(233, 7, 7);
+  height: 0px;
+  width: 150px;
+  right: 3%;
+  padding: 0;
+  /*min-width: 100px;
+  line-height: 50px;*/
+ 
+  
+ }
+ /* provide css to list items */ 
+ #list-drop a {
+  display: block;
+  position: relative;
+  font-size: 18px;
+  background-color: #ddd;
+  color: black;
+  text-decoration: none;
+  
+  top: 20px;
+  border-radius: 5px;
+ }
+
+
+
+/*
+ .nn{
+ 
+    position: absolute;
+    top: 20%;
+   
+    left: 20%;
+    transform: translate(-10%,-15%);
+    background-color: #f9f5ff;
+   width: 30px;
+   line-height: 10px;
+   padding: 1px 2px;
+   border-radius: 5px;
+ 
+   color: #000;
+   border-color: rgb(7, 7, 5);
+   margin-left: 65%;
+   margin-top: -100px;
+   z-index: 2;
+   }
+   
+
+
+.nn ul{
+  justify-content: center;
+      margin-right: 0px;
+      margin-left: -00px;
+      margin-top: -5px;
+   display:none;
+   position: absolute;
+     background: #ffffff;
+     list-style: none;
+     top: 40px;
+     width: 150px;
+     left: 1px;
+     border-radius: 5px; 
+     font-size: 14px;  
+     align-items: center;
+     border:1px solid rgba(0, 0, 0,0.2);
+     
+  
+     
+    }
+   
+
+
+
+[id^=btn]:checked+ ul{
+display: block;
+
+}
+
+
+
+  
+   
+.nn ul li{
+ 
+   border-bottom:1px solid rgba(0, 0, 0,0.2);
+   font-family:normal;
+   font-size: 12px;
+   font-weight: normal;
+   padding: 0 0 1em;
+   text-align: center;
+ justify-content: center;
+   width: 110px;
+   align-items: center;
+   line-height: 22px;
+  
+  
+    }
+   
+ 
+  .nn .menu::before{
+   position: absolute;
+   content: '';
+   height: 10px;
+   width: 1px;
+   background: rgb(10, 10, 10);
+   left:10px;
+   top:-1px;
+   transform: rotate(25deg);
+   align-items: center;
+   
+   
+   }
+   
+   .nn ul li a{
+   
+    color: rgb(14, 12, 12);
+    text-decoration:none;
+    font-size: 17px;
+    
+    width:80px;
+
+ 
+ 
+ 
+      }
+  li.label{
+
+    background-color: #270a4d;
+
+    font-size: 15px;
+  }
+
+  
+ 
+.nn ul li ul{
+      width: 70px;
+      align-items: center;
+      
+      border-bottom: none;
+      margin-top: 3px;
+      border-style:none;
+     
+   }
+   .nn ul ul{
+     list-style: none;
+  position: static;
+    align-items: center;
+    border-bottom: none;
+    border-style:none;
+    margin-left: -30%;
+    border: solid;
+    width: 100px;
+    
+  }
+     .nn li{
+      border-bottom: 1px solid rgb(255, 233, 233);
+    
+     }
+ */
+     /*--------------------------------*/
+     .en{
+
+
+      font-size: 30px; color: #0bf43a;position:absolute; 
+      font-style: italic;
+
+     }  

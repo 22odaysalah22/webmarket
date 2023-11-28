@@ -1,0 +1,14 @@
+
+
+
+
+
+
+.ss {
+	animation: alternate 2s infinite shrink ease-in-out;
+}
+
+@keyframes shrink {
+	from { transform: scale(1); }
+	to { transform: scale(0); }
+}
